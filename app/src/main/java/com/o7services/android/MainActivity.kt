@@ -1,11 +1,8 @@
-package com.o7services.android
-
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+fun main() {
+    for (i in 0..4) {
+        for (j in 0..i) {
+            print("*")
+        }
+        println()
     }
 }

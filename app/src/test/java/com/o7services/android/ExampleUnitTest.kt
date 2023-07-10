@@ -1,17 +1,7 @@
-package com.o7services.android
-
-import org.junit.Test
-
-import org.junit.Assert.*
-
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * See [testing documentation](http://d.android.com/tools/testing).
- */
-class ExampleUnitTest {
-    @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+fun main() {
+    for(i in 0..4){
+        for(j in 0..i){
+            print("*")
+        }
+        println()
     }
-}
